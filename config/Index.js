@@ -13,8 +13,8 @@ Detail.hasMany(DetailType)  //商品详情关联详情种类
 
 // Type.sync({force:true})
 // Commodity.sync({force:true})
-DetailType.sync({force:true})
-Detail.sync({force:true})
+// DetailType.sync({force:true})
+// Detail.sync({force:true})
 
 
 module.exports = {
