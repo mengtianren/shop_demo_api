@@ -9,12 +9,13 @@ Commodity.hasMany(Detail)   //商品关联商品详情
 Detail.hasMany(DetailType)  //商品详情关联详情种类
 // DetailType.hasMany(Detail)
 // Detail.belongsTo(DetailType)
-// User.sync({force:true})
 
-// Type.sync({force:true})
-// Commodity.sync({force:true})
-// DetailType.sync({force:true})
-// Detail.sync({force:true})
+
+// User.sync({force:true})
+// Type.sync()
+// Commodity.sync()
+// DetailType.sync()
+// Detail.sync()
 
 
 module.exports = {
